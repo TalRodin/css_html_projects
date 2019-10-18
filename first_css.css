@@ -18,7 +18,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 0 8px;
+    margin: 0 6px;
   }
   
   .social-buttons a::before{
@@ -26,11 +26,11 @@ body{
     position: absolute;
     width: 60px;
     height: 60px;
-    background: linear-gradient(45deg,silver, black);
+    background: linear-gradient(60deg,silver, #607d8b);
     border-radius: 50%;
     z-index: -1;
     transition: 0.3s ease-in;
-    box-shadow: 0 5px 5px rgba(0,0.3,0.3,0.3);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
   }
   
   .social-buttons a:hover::before{
@@ -42,7 +42,7 @@ body{
   }
   
   .social-buttons a:hover i{
-    background: linear-gradient(45deg,silver,black);
+    background: linear-gradient(60deg,silver,#607d8b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: scale(2.2);
